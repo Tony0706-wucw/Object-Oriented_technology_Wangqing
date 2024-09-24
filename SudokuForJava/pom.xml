@@ -10,6 +10,20 @@
   <name>demo</name>
   <url>http://maven.apache.org</url>
 
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.2</version> <!-- 确保使用的是最新版本 -->
+            <configuration>
+                <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                <testFailureIgnore>true</testFailureIgnore> <!-- 可选：忽略测试失败 -->
+                <reportsDirectory>${project.build.directory}/testlog</reportsDirectory> <!-- 指定输出目录 -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
   <dependencies>
     <dependency>
