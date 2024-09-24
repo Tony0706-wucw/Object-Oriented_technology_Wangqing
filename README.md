@@ -12,7 +12,7 @@ Implement Sudoku modules (business code, test code, documentation) as designed i
 按照自己喜好，分别用两种语言，一种静态类型（C++、Java、……），一种动态类型（Python、JavaScript、……），按设计实现Sudoku模块（业务代码、测试代码、文档）。    
 
 
-![image](F:\oop\Object-Oriented_technology_Wangqing\img\image.png)
+![image](img\image.png)
 
 **要求**
 
@@ -63,7 +63,7 @@ OO基础技术：实现的Sudoku类应当符合所用语言OOP的技术惯例，
 
 **java项目结构**
 
-环境：java17
+环境：java17、JUnit5
 
 实现Sudoku：Sudoku.java
 
@@ -86,7 +86,7 @@ src
 
 使用Junit进行测试
 
-![微信图片_20240924185614](F:\oop\Object-Oriented_technology_Wangqing\img\微信图片_20240924185614.png)
+![微信图片_20240924185614](img\微信图片_20240924185614.png)
 
 测试内容与结果
 
