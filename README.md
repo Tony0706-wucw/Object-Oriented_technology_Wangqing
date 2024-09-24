@@ -12,7 +12,7 @@ Implement Sudoku modules (business code, test code, documentation) as designed i
 按照自己喜好，分别用两种语言，一种静态类型（C++、Java、……），一种动态类型（Python、JavaScript、……），按设计实现Sudoku模块（业务代码、测试代码、文档）。    
 
 
-![image](img\image.png)
+![image](img/image.png)
 
 **要求**
 
@@ -86,7 +86,7 @@ src
 
 使用Junit进行测试
 
-![微信图片_20240924185614](img\微信图片_20240924185614.png)
+![微信图片_20240924185614](img/微信图片_20240924185614.png)
 
 测试内容与结果
 
